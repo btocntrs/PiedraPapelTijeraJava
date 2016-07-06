@@ -14,9 +14,7 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        //Prueba del metodo ganaContra
-        System.out.println(GESTO.PAPEL.ganaContra(GESTO.TIJERA));
+    public static void main(String[] args) {        
     }
     
 }

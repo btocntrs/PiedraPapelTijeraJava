@@ -5,6 +5,7 @@
  */
 package com.btocntrs.piedrapapeltijera;
 
+import com.btocntrs.piedrapapeltijera.GESTO.RESULTADO;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.assertEquals;
@@ -40,13 +41,9 @@ public class GESTOTest {
      * Test of ganaContra method, of class GESTO.
      */
     @org.junit.Test
-    public void testGanaContra() {
-        System.out.println("ganaContra");
-        GESTO gesto = GESTO.PAPEL;
-        GESTO gestoOponente = GESTO.PIEDRA;
-        boolean expResult = true;
-        boolean result = gesto.ganaContra(gestoOponente);
-        assertEquals(expResult, result);
+    public void testGestoContra() {
+        System.out.println("Prueba metodo contra de Enum GESTO");
+        assertEquals(RESULTADO.PIERDE, GESTO.PIEDRA.contra(GESTO.PAPEL));
     }
 
 }
