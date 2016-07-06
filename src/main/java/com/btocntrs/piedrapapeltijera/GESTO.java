@@ -11,6 +11,27 @@ package com.btocntrs.piedrapapeltijera;
  */
 public enum GESTO {
     
-    PIEDRA, PAPEL, TIJERA
+    PIEDRA {
+
+        @Override
+        public boolean ganaContra(GESTO gesto) {
+            return gesto == TIJERA; //Piedra gana contra Tijera
+        }
+    }, PAPEL {
+
+        @Override
+        public boolean ganaContra(GESTO gesto) {
+            return gesto == PIEDRA;//Papel gana contra Piedra
+        }
+    }, TIJERA {
+
+        @Override
+        public boolean ganaContra(GESTO gesto) {
+            return gesto == PAPEL;//Tijera gana contre Papel
+        }
+    };
+    
+    //Metodo abstracto que implementan todos los enum
+    public abstract boolean ganaContra(GESTO gesto);
     
 }
