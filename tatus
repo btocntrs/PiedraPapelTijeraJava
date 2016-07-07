@@ -1,0 +1,53 @@
+[33mcommit 288cdfed578ca2b2ab8b70b3031ffe852038f9d0[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Wed Jul 6 20:22:39 2016 -0500
+
+    Se creo la clase Usuario con los atributos id, nombre, email y telefono
+
+[33mcommit b602d66f7cb4618ee6e8e995b3417b1fa85d42ac[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Wed Jul 6 20:09:15 2016 -0500
+
+    Se agrego la dependecia hibernate al pom.xml de maven
+
+[33mcommit 3b0b4cb498aba7b206b17b2e832fcd09bc93effe[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Tue Jul 5 23:25:06 2016 -0500
+
+    Mejora del metodo contra de la Enum GESTO
+
+[33mcommit b129344884a690ad6dc4930b5e55003aa5458f8f[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Tue Jul 5 22:02:52 2016 -0500
+
+    Se realizo la prueba unitaria para el metodo ganaContra del la Enum GESTOS
+
+[33mcommit fd869b152328640210a2bc516ca28c6ebc7aa34f[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Tue Jul 5 21:10:17 2016 -0500
+
+    Pueba de metodo
+
+[33mcommit 77e65361247764a6a27c4da97e9d4623650af0c7[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Tue Jul 5 20:42:59 2016 -0500
+
+    Se agrego el metodo abstracto ganaContra a la Enum para cada gesto y devulve un booleano despues de la comparacíon del los gesto
+
+[33mcommit dbae53b7161961b93d14d1cbdee2ab9100dddc5e[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Wed Jun 29 20:01:38 2016 -0500
+
+    Se agragaron los gesto en un Enum: PIEDRA, PAPEL, TIJERA
+
+[33mcommit 0ab9f6de8726738e2cbbb61c2f6fa4e6d24b1bab[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Wed Jun 22 18:33:20 2016 -0500
+
+    Agregamos un Hola Mundo
+
+[33mcommit 67c29d674b798640cee065792e3cc443561a2561[m
+Author: Beto Contreras <btocntrs@hotmail.com>
+Date:   Wed Jun 22 18:10:43 2016 -0500
+
+    Este es mi primer commit
